@@ -28,7 +28,7 @@ footer a {
     cursor: pointer;
 }
 
-footer ul li a:visited {
+footer a:visited {
     text-decoration: none;
     color: #f1f6f9;
 }
@@ -40,5 +40,10 @@ footer ul li a:visited {
 
     footer p {
         margin-top: 20px;
+    }
+
+    footer a:visited {
+        text-decoration: none;
+        color: #f1f6f9;
     }
 }
