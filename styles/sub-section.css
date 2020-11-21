@@ -54,3 +54,16 @@ input {
     transform: scale(0.9, 0.9);
 }
 
+@media (max-width: 650px) {
+    .subscribe-section {
+        grid-template-columns: 100%;
+        margin: 70px 0px 150px 0px;
+    }
+
+    .subscribe-form button {
+        margin-top: 30px;
+    }
+}
+
+
+

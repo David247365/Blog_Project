@@ -33,3 +33,21 @@
 .card:visited {
     color: #122244;
 }
+
+@media (max-width: 570px) {
+    .card-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .card {
+        font-size: 20px;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

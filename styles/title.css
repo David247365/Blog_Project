@@ -20,3 +20,13 @@ h1 {
     margin: 20px 40px;
     color: #091225;
 }
+
+@media (max-width: 900px) {
+    h1 {
+        text-align: center;
+    }
+
+    .orange {
+        text-align: center;
+    }
+}
