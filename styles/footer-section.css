@@ -33,6 +33,10 @@ footer a:visited {
     color: #f1f6f9;
 }
 
+footer i {
+    color: #f1f6f9;
+}
+
 @media (max-width: 600px) {
     footer {
         flex-direction: column;
