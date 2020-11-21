@@ -1,0 +1,19 @@
+.blog-text h3 {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blog-text ul {
+    margin: 20px 0px 0px 30px;
+    list-style: none;
+}
+
+.blog-text p {
+    font-size: 20px;
+    margin: 50px 30px;
+}
+
+@media (max-width: 650px) {
+
+}

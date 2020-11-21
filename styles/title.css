@@ -9,6 +9,25 @@ nav p {
     justify-self: center;
 }
 
+nav li {
+    text-align: center;
+    color: #091225;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 a:hover {
+    color: #2e54ad;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #092768;
+}
+
+
 .orange {
     color: rgb(255, 132, 16);
     font-size: 45px;
@@ -18,7 +37,7 @@ nav p {
 h1 {
     font-size: 60px;
     margin: 20px 40px;
-    color: #091225;
+    color: #092768;
 }
 
 @media (max-width: 900px) {
