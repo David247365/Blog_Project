@@ -1,17 +1,35 @@
 .card-section {
-    border: 1px solid red;
     grid-area: 2 / 1 / 3/ span 1;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 500px;
+    background-color: #2d4780;
 }
 
 .card {
+    background-color: #e1ebff;
+    color: #122244;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
     padding: 30px;
     margin: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s;
+    box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.25);
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.25), 
+      -5px -5px 20px 10px rgba(0,0,0,0.22);
+}
+
+.card:visited {
+    color: #122244;
 }

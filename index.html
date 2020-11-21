@@ -10,30 +10,34 @@
 </head>
 <body>
     <nav>
-        <h1>Title</h1>
-        <ul>
-            <li>Subscribe</li>
-        </ul>
+        <h1>IPSO FACTO</h1>
     </nav>
     <section class="card-section">
-        <div class="card"><a href="/blog_pages/first.html">Card 1</a></div>
-        <div class="card"><a href="/blog_pages/second.html">Card 2</a></div>
-        <div class="card"><a href="/blog_pages/third.html">Card 3</a></div>
-        <div class="card"><a href="/blog_pages/fourth.html">Card 4</a></div>
+        <a href="/blog_pages/first.html" class="card">
+            <p>ARISTOTLE</br>(384–322 BCE)</p>
+        </a>
+        <a href="/blog_pages/second.html" class="card">
+            <p>CONFUCIUS</br>(551–479 BCE)</p>
+        </a>
+        <a href="/blog_pages/third.html" class="card">
+            <p>SOCRATES</br>(470–399 BCE)</p>
+        </a>
+        <a href="/blog_pages/fourth.html" class="card">
+            <p>KARL MARX</br>(1818–83)</p>
+        </a>
     </section>
     <div class="subscribe-section">
         <section class="subscribe-text">
-            <div>
-                <p>Subscribe</p>
-                <p>Subscribe to our mailing list</p>
-            </div>
+            <p>Let's keep in touch.</p>
+            <p>Subscribe to our mailing list.</p>
         </section>
         <section class="subscribe-form">
             <form action="">
-                <label for="">First Name:</label>
-                <input type="text">
-                <label for="">Email</label>
-                <input type="text">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <button>Subscribe</button>
             </form>
         </section>
     </div>

@@ -1,0 +1,52 @@
+.subscribe-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 300px;
+}
+
+.subscribe-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-text p:nth-child(1) {
+    font-size: 40px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.subscribe-form label {
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.subscribe-form button {
+    width: 100%;
+    background-color: #e1ebff;
+    color: #091225;
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-style: none;
+    transition: 0.4s;
+}
+
+.subscribe-form button:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.25);
+    
+}
+

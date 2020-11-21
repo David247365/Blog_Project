@@ -1,5 +1,7 @@
 @import url(/styles/card-section.css);
 @import url(/styles/footer-section.css);
+@import url(/styles/sub-section.css);
+@import url(/styles/title.css);
 
 * {
     padding: 0;

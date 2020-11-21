@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 20px 30px;
+}

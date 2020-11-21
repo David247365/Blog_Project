@@ -1,4 +1,30 @@
 footer {
-    background-color: blue;
-    color: white;
+    font-size: 30px;
+    background-color: #2d4780;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #f1f6f9;
+    grid-column-end: 4;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    padding: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: #f1f6f9;
 }
