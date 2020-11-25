@@ -52,4 +52,8 @@ footer i {
         text-decoration: none;
         color: #f1f6f9;
     }
+    
+    footer li {
+        padding: 22px;
+    }
 }

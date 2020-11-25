@@ -4,9 +4,38 @@
     font-weight: bold;
 }
 
+blockquote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+blockquote cite {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+figure {
+    text-align: center;
+    margin-top: 40px;
+}
+
+figure img {
+    width: 97%;
+}
+
+figcaption {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
 .blog-text ul {
-    margin: 20px 0px 0px 30px;
+    margin: 30px 0px 30px 30px;
     list-style: none;
+    display: flex;
 }
 
 .blog-text p {
@@ -15,5 +44,7 @@
 }
 
 @media (max-width: 650px) {
-
+    blockquote {
+        margin: 30px 10px;
+    }
 }
