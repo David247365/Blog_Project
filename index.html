@@ -10,25 +10,42 @@
     <title>My Blog</title>
 </head>
 <body>
-    <nav>
-        <h1>IPSO FACTO</h1>
+    <header>
+        <nav>
+            <h1>IPSO FACTO</h1>
+            <ul>
+                <li><a href="#sub"><button class="nav-button">Subscribe</button></a></li>
+            </ul>
+        </nav>
         <p class="orange">A Blog On Philosophers</p>
-    </nav>
+    </header>
     <section class="card-section">
-        <a href="/blog_pages/aristotle.html" class="card">
+        <div class="card">
             <p>ARISTOTLE</br>(384–322 BCE)</p>
-        </a>
-        <a href="/blog_pages/confucius.html" class="card">
+            <a href="/blog_pages/aristotle.html">
+                <button class="card-button">Go to page</button>
+            </a>
+        </div>
+        <div class="card">
             <p>CONFUCIUS</br>(551–479 BCE)</p>
-        </a>
-        <a href="/blog_pages/socrates.html" class="card">
+            <a href="/blog_pages/confucius.html">
+                <button class="card-button">Go to page</button>
+            </a>
+        </div>
+        <div class="card">
             <p>SOCRATES</br>(470–399 BCE)</p>
-        </a>
-        <a href="/blog_pages/karlmarx.html" class="card">
+            <a href="/blog_pages/socrates.html">
+                <button class="card-button">Go to page</button>
+            </a>
+        </div>
+        <div class="card">
             <p>KARL MARX</br>(1818–83)</p>
-        </a>
+            <a href="/blog_pages/karlmarx.html">
+                <button class="card-button">Go to page</button>
+            </a>
+        </div>
     </section>
-    <div class="subscribe-section">
+    <div class="subscribe-section" id="sub">
         <section class="subscribe-text">
             <p>Let's keep in touch<span class="orange period">.</span></p>
             <p>Subscribe to our mailing list.</p>
